@@ -1,0 +1,5 @@
+*{font-size:40px;}
+body{background-color:lightblue;}
+.nav{background-color:black;}
+.nav a{color:white;text-decoration:none;margin:100px;}
+h2{border:solid;width:80%;border-radius:40px;}

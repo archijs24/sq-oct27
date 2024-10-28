@@ -1,0 +1,21 @@
+<html>
+	<head>
+		<title>Even Odd App by kamal sir</title>
+		<link rel="stylesheet" href="mystyle.css">
+	</head>
+	<body>
+		<center>
+			<div class="nav">
+				<a href="index.html">Home</a>
+				<a href="aboutus.html">About Us </a>
+			</div>
+				<h1>Result</h1>
+				<h2 id="msg">
+				<script>
+						let msg=document.getElementById("msg");
+						let res=localStorage.getItem("res");
+						msg.innerHTML="square= "+res;
+				</script>
+		</center>
+	</body>
+</html>
